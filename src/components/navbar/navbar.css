@@ -1,0 +1,27 @@
+div.nav{
+    width: 30%;
+    /* background-color: beige; */
+}
+div.nav ul{
+    display: flex;
+}
+div.nav ul li{
+    list-style-type: none;
+    transition-duration: 1s;
+}
+div.nav ul li:hover{
+    transform: scale(1.2);
+}
+div.nav ul li a{
+    text-decoration: none;
+    margin-left: 1rem;
+    color: rgba(0, 0, 0, 0.456);
+    font-size: medium;
+    font-weight: 500;
+}
+div.nav ul li a:hover{
+    color: lightsteelblue;
+}
+div.nav ul li a:focus{
+    border-bottom: 1px solid lightblue;
+}
